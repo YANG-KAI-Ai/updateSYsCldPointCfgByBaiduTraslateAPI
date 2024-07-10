@@ -8,8 +8,8 @@ import random
 from sqlalchemy import create_engine
 
 # 百度翻译 API 信息
-appid = '20240702002090296'  # 你的百度翻译API的appid
-secretKey = 'k9ShhuwE_lIg3gDmY3tB'  # 你的密钥
+appid = ''  # 你的百度翻译API的appid
+secretKey = ''  # 你的密钥
 
 def baidu_translate_batch(queries, from_lang='zh', to_lang='en'):
     base_url = 'http://api.fanyi.baidu.com/api/trans/vip/translate'
